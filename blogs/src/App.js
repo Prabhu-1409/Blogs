@@ -6,6 +6,7 @@ import {BrowserRouter , Routes, Route} from "react-router-dom"
 import Home from "./Components/Home";
 import Postpage from "./Components/Postpage";
 import Form from "./Uploads/Form";
+import Admin from "./Components/Admin/Admin";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/:id" element={<Postpage></Postpage>}></Route>
       <Route path="postpage" element={<Postpage></Postpage>}></Route>
       {/* <Route path="form" element={<Form></Form>}></Route> */}
+      <Route path="/admin" element={<Admin></Admin>}></Route>
     </Routes>
     </BrowserRouter>
   );
