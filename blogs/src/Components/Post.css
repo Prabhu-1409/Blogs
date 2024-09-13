@@ -1,0 +1,43 @@
+.post{
+    width: 80vw;
+    height: fit-content;
+    position: relative;
+    border: 1px solid black;
+}
+.image{
+    height: 75vh;
+    width: 100vw;
+    object-fit:cover;
+}
+.featured{
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    position: absolute;
+    border: 1px solid black;
+    translate: -0.1vh -5vh 0;
+    background-color: white;
+}
+.featured p{
+    letter-spacing: 0.5em;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.post-content{
+    display: flex;
+    padding: 4vh;
+    flex-direction: column;
+    row-gap: 1vh;
+}
+.post-content .post-title{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.post-about-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2vh;
+    row-gap: 2vh;
+}

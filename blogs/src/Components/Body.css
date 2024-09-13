@@ -1,0 +1,13 @@
+.body{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10vh;
+}
+.line{
+    width: 95vw;
+    margin-top: 5vh;
+    border-top: 1px solid black;
+}

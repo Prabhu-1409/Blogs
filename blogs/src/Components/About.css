@@ -1,0 +1,21 @@
+.about p{
+    letter-spacing: 0.5em;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+.about{
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+}
+.about-content{
+    padding: 1vh;
+    text-align: justify;
+    letter-spacing: 0.1em;
+}
+.read-more{
+    padding: 1vh;
+    text-align: justify;
+    letter-spacing: 0.1em;
+}

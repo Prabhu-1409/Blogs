@@ -1,0 +1,54 @@
+.postpage{
+    display: flex;
+    flex-direction: column;
+}
+.post-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6vh;
+    row-gap: 14vh;
+}
+.post-box{
+    width: 80vw;
+    border: 1px solid black;
+}
+.post-inner-box{
+    display: flex;
+    flex-direction: column;
+    padding: 9% 10%;
+    row-gap: 3vh;
+}
+.post-inner-box .post-headline{
+    font-size: 3.5rem;
+    font-family: 'tinos';
+    font-weight: bold;
+    height: fit-content;
+}
+.post-inner-box .date-time{
+    font-size: 0.7rem;
+    font-family: 'arial';
+    color: gray;
+    height: fit-content;
+}
+.post-inner-box .post-description{
+    width: 100%;
+    text-align: justify;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+.post-inner-box .post-image{
+    width: 100%;
+    object-fit: contain;
+    padding: 0 0 2vh;
+    height: fit-content;
+}
+.post-inner-box .post-body{
+    font-weight: 360;
+    width: 100%;
+    height: fit-content;
+    text-align: justify;
+    letter-spacing: 0.1em;
+}
